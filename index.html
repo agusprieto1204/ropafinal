@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThrashTrend Co.</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/CONJUNTO.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>ThrashTrend Co.</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Hombres</a></li>
+                <li><a href="#">Mujeres</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="productos">
+        <article class="producto" data-precio="12000">
+
+            <img src="./img/CONJUNTO.jpg" alt="Producto 1">
+
+            <h2>CONJUNTO OVER</h2>
+            <p id="precio-en-pagina">Precio: $12000</p>
+            <button onclick="addToCart(this)">Añadir al carrito</button>
+        </article>
+    </section>
+
+    <section class="productos">
+        <article class="producto" data-precio="19000">
+
+            <img src="./img/buzo.jpg" alt="Producto 2">
+
+            <h2>BUZO ESSENTIALS</h2>
+            <p id="precio-en-pagina">Precio: $19.000</p>
+            <button onclick="addToCart(this)">Añadir al carrito</button>
+        </article>
+    </section>
+
+    <section class="productos">
+        <article class="producto" data-precio="20000">
+
+            <img src="./img/remeraover.jpg" alt="Producto 3">
+            
+            <h2>REMERA BASTARD BASICA</h2>
+            <p id="precio-en-pagina">Precio: $20.000</p>
+            <button onclick="addToCart(this)">Añadir al carrito</button>
+        </article>
+    </section>
+
+    <section class="productos">
+        <article class="producto" data-precio="25450">
+
+            <img src="./img/remeron.jpg" alt="Producto 4">
+
+            <h2>REMERON BASTARD</h2>
+            <p id="precio-en-pagina">Precio: $25.450</p>
+            <button onclick="addToCart(this)">Añadir al carrito</button>
+        </article>
+    </section>
+
+    <section class="productos">
+        <article class="producto" data-precio="56999">
+
+            <img src="./img/jeanhombre.jpg" alt="Producto 5">
+
+            <h2>PANTALON MOM</h2>
+            <p id="precio-en-pagina">Precio: $56.999</p>
+            <button onclick="addToCart(this)">Añadir al carrito</button>
+        </article>
+    </section>
+
+    <section class="productos">
+        <article class="producto" data-precio="90000">
+
+            <img src="./img/bermuda.jpg" alt="Producto 6">
+
+            <h2>BERMUDA OVER</h2>
+            <p id="precio-en-pagina">Precio: $90.000</p>
+            <button onclick="addToCart(this)">Añadir al carrito</button>
+        </article>
+    </section>
+
+    <section class="productos">
+        <article class="producto" data-precio="9000">
+
+            <img src="/img/medias.jpg" alt="Producto 7">
+
+            <h2>MEDIAS(ACCSESORIOS)</h2>
+            <p id="precio-en-pagina">Precio: $9.000</p>
+            <button onclick="addToCart(this)">Añadir al carrito</button>
+        </article>
+    </section>
+
+    <section class="productos">
+        <article class="producto" data-precio="69000">
+
+            <img src="./img/cargoover}.jpg" alt="Producto 8">
+
+            <h2>PANTALON CARGO</h2>
+            <p id="precio-en-pagina">Precio: $69.000</p>
+            <button onclick="addToCart(this)">Añadir al carrito</button>
+        </article>
+    </section>
+
+    <div id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p id="total-carrito">Total: $0.00</p>
+        <p id="bonificacion-info"></p>
+        <button onclick="limpiarCarrito()">Limpiar Carrito</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

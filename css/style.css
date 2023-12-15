@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section.productos {
+    display: inline-block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+article.producto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+article.producto img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+
+
